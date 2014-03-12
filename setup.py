@@ -14,13 +14,13 @@ from setuptools import setup
 
 
 setup(
-    name='flask-jsonify',
+    name='flask-jsonify-emidln',
     version='0.1',
-    url='http://github.com/fredj/flask-jsonify',
+    url='http://github.com/emidln/flask-jsonify',
     license='BSD',
     author='Frederic Junod',
     author_email='frederic.junod@gmail.com',
-    description='A small Flask decorator for returning json',
+    description='A small Flask decorator for returning json. This is a fork pushed to PyPI for easy install.',
     long_description=__doc__,
     packages=['flaskext'],
     namespace_packages=['flaskext'],
